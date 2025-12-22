@@ -1,12 +1,24 @@
 import { Button } from "./ui/button";
+import profilePhoto from "@/assets/profile-photo.jpeg";
 
 const HeroSection = () => {
   return (
     <section id="home" className="min-h-screen flex items-center pt-20 gradient-blue-moon">
       <div className="container mx-auto px-4 py-16 md:py-24">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="flex flex-col items-center text-center">
+          {/* Profile Image - Centered above title */}
+          <div className="mb-8 animate-fade-in">
+            <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden">
+              <img 
+                src={profilePhoto} 
+                alt="Bota - Psychologist in Budapest" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
           {/* Text Content */}
-          <div className="order-2 md:order-1 animate-fade-in">
+          <div className="max-w-3xl animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-medium text-foreground leading-tight mb-6">
               Multilingual Psychologist in Budapest
             </h1>
@@ -30,7 +42,7 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-wrap gap-4 justify-center">
               <Button 
                 asChild
                 className="bg-blue-moon-dark hover:bg-blue-moon-dark/90 text-primary-foreground px-6 py-3"
@@ -44,21 +56,6 @@ const HeroSection = () => {
               >
                 <a href="#about">Learn More About Me</a>
               </Button>
-            </div>
-          </div>
-
-          {/* Profile Image */}
-          <div className="order-1 md:order-2 flex justify-center animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-primary/30 border-4 border-background shadow-xl overflow-hidden flex items-center justify-center">
-                {/* Placeholder for photo - will be replaced */}
-                <div className="text-center p-8">
-                  <p className="text-muted-foreground text-sm">Photo coming soon</p>
-                </div>
-              </div>
-              {/* Decorative elements */}
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-full bg-accent/50 -z-10"></div>
-              <div className="absolute -top-4 -left-4 w-16 h-16 rounded-full bg-blue-moon-dark/20 -z-10"></div>
             </div>
           </div>
         </div>
