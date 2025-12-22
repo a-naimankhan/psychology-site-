@@ -1,4 +1,6 @@
 import { GraduationCap } from "lucide-react";
+import diplomaBachelor from "@/assets/diploma-bachelor.jpg";
+import diplomaMaster from "@/assets/diploma-master.jpg";
 
 const qualifications = [
   {
@@ -81,23 +83,32 @@ const QualificationsSection = () => {
           </div>
         </div>
 
-        {/* Diplomas placeholder */}
-        <div className="mt-12 pt-8 border-t border-border">
-          <h3 className="font-heading font-medium text-xl text-foreground text-center mb-6">
-            Certifications & Diplomas
+        {/* Diplomas */}
+        <div className="mt-16 pt-8 border-t border-border">
+          <h3 className="font-heading font-medium text-xl text-foreground text-center mb-8">
+            Academic Documents
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {[1, 2, 3].map((i) => (
-              <div 
-                key={i}
-                className="aspect-[3/4] bg-secondary/50 rounded-lg border border-border flex items-center justify-center"
-              >
-                <p className="text-muted-foreground text-sm text-center px-4">
-                  Diploma {i}<br/>
-                  <span className="text-xs">(Coming soon)</span>
-                </p>
-              </div>
-            ))}
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="space-y-3">
+              <img 
+                src={diplomaBachelor} 
+                alt="Bachelor's Degree Certificate - Eötvös Loránd University" 
+                className="w-full h-auto"
+              />
+              <p className="text-sm text-muted-foreground text-center">
+                Bachelor of Arts in Psychology — ELTE, 2022
+              </p>
+            </div>
+            <div className="space-y-3">
+              <img 
+                src={diplomaMaster} 
+                alt="Master's Degree Diploma - University of Padua" 
+                className="w-full h-auto"
+              />
+              <p className="text-sm text-muted-foreground text-center">
+                Master's in Developmental and Educational Psychology — Padua, 2025
+              </p>
+            </div>
           </div>
         </div>
       </div>
