@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-foreground text-background py-8">
       <div className="container mx-auto px-4">
         <div className="text-center">
-          <p className="font-heading text-xl mb-2">Bota Beisekova</p>
+          <p className="font-heading text-xl mb-2">Botagoz Beisekova</p>
           <p className="text-sm text-background/70 mb-4">
             Multilingual Psychologist in Europe
           </p>
