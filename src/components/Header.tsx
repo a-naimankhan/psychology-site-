@@ -19,7 +19,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <a href="#home" className="font-heading text-xl md:text-2xl font-medium text-foreground">
-            Bota Beisekova
+            Botagoz Beisekova
           </a>
 
           {/* Desktop Navigation */}

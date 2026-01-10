@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="text-center">
           <p className="font-heading text-xl mb-2">Bota Beisekova</p>
           <p className="text-sm text-background/70 mb-4">
-            Multilingual Psychologist in Budapest
+            Multilingual Psychologist in Europe
           </p>
           <div className="flex justify-center gap-4 text-sm text-background/60">
             <a href="#home" className="hover:text-background transition-colors">Home</a>
@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="#contact" className="hover:text-background transition-colors">Contact</a>
           </div>
           <p className="text-xs text-background/50 mt-6">
-            © {currentYear} Bota Beisekova. All rights reserved.
+            © {currentYear} Botagoz Beisekova. All rights reserved.
           </p>
         </div>
       </div>
