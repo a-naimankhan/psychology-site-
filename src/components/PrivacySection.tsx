@@ -8,9 +8,6 @@ const PrivacySection = () => {
           Privacy & Confidentiality
         </h2>
         
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Your privacy and the confidentiality of our sessions is my top priority
-        </p>
 
         <div className="grid md:grid-cols-3 gap-6 mb-10">
           <div className="bg-card p-6 rounded-lg border border-border text-center">

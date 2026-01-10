@@ -11,7 +11,7 @@ const HeroSection = () => {
             <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden">
               <img 
                 src={profilePhoto} 
-                alt="Bota - Psychologist in Budapest" 
+                alt="Bota - Psychologist in Europe" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -20,7 +20,7 @@ const HeroSection = () => {
           {/* Text Content */}
           <div className="max-w-3xl animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-medium text-foreground leading-tight mb-6">
-              Multilingual Psychologist in Budapest
+              Multilingual Psychologist in Europe
             </h1>
             
             <div className="space-y-4 text-foreground/80 text-base md:text-lg leading-relaxed">

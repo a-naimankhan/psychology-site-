@@ -1,4 +1,7 @@
-const AboutSection = () => {
+
+import BotaPic from "../assets/Bota-Picture.jpeg";
+
+const AboutSection = (): JSX.Element => {
   return (
     <section id="about" className="section-padding bg-background">
       <div className="container mx-auto container-narrow">
@@ -9,16 +12,20 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-3 gap-8 items-start">
           {/* Photo placeholder */}
           <div className="md:col-span-1 flex justify-center">
-            <div className="w-48 h-56 md:w-56 md:h-64 rounded-lg bg-secondary border border-border overflow-hidden flex items-center justify-center shadow-sm">
-              <p className="text-muted-foreground text-sm text-center px-4">Photo coming soon</p>
+            <div className="w-48 h-56 md:w-56 md:h-64 rounded-lg bg-secondary border border-border overflow-hidden shadow-sm">
+            <img
+              src={BotaPic}
+              alt="Bota Beisekova – Psychologist"
+              className="w-full h-full object-cover"
+            />
             </div>
           </div>
 
           {/* About text */}
           <div className="md:col-span-2 space-y-5 text-foreground/85 leading-relaxed">
             <p>
-              My name is <strong className="text-foreground">Bota</strong>, and I am originally from Kazakhstan. 
-              I am currently pursuing my PhD in Psychology at ELTE in Budapest.
+              My name is <strong className="text-foreground">Botagoz Beisekova</strong>, and I am originally from Kazakhstan. 
+              I’m currently pursuing my PhD in Psychology at ELTE in Budapest, where my work is supervised by Dr. Adrienn  Ujhelyi.
             </p>
             
             <p>
@@ -35,11 +42,6 @@ const AboutSection = () => {
               ethical standards of the services I provide.
             </p>
             
-            <p>
-              As an international living abroad, I am familiar with the difficulties faced by immigrants, 
-              international students, and workers. Having studied and lived in several countries, I value 
-              openness, cultural sensitivity, and respect for individual differences.
-            </p>
             
             <div className="pt-4 border-t border-border">
               <p className="font-medium text-foreground">
