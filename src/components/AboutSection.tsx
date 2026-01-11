@@ -30,16 +30,16 @@ const AboutSection = (): JSX.Element => {
             
             <p>
               I believe that many people primarily need a space where they can be heard without judgment 
-              or bias. My academic and professional interests focus on psychological well-being in the 
-              context of contemporary challenges, including socio-political factors, economic pressures, 
-              and modern technologies such as social media and AI.
+              or bias. In my work, I draw on evidence-based principles from <strong className="text-foreground">Cognitive-Behavioural 
+              Therapy (CBT)</strong> and <strong className="text-foreground">Humanistic psychology</strong>. 
+              
+              
             </p>
             
             <p>
-              In my work, I draw on evidence-based principles from <strong className="text-foreground">Cognitive-Behavioural 
-              Therapy (CBT)</strong> and <strong className="text-foreground">Humanistic psychology</strong>. As a doctoral 
-              candidate, my work is supervised by Dr. Adrienn Ujhelyi, which supports the quality and 
-              ethical standards of the services I provide.
+              My academic and professional interests focus on psychological well-being in the 
+              context of contemporary challenges, including socio-political factors, economic pressures, 
+              and modern technologies such as social media and AI.
             </p>
             
             
