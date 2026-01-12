@@ -3,10 +3,6 @@ Frontend Application
 Production-ready frontend application developed by our team using a modern React-based stack.
 The project follows best practices in structure, scalability, and maintainability.
 
-🔗 Project Access
-
-Live version is available at:
-👉 https://your-project-url.com
 
 🧩 Tech Stack
 
@@ -38,7 +34,6 @@ npm run dev
 
 The development server will start at:
 
-http://localhost:5173
 
 📜 Scripts
 npm run dev       # start development server
