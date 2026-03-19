@@ -18,6 +18,8 @@ Tailwind CSS — utility-first styling
 
 shadcn/ui — reusable and customizable UI components
 
+Built with a hybrid approach: Accelerated by Lovable for UI prototyping, with custom React/TypeScript logic and manual production deployment.
+
 📦 Getting Started
 Prerequisites
 
