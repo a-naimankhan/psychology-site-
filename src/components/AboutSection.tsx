@@ -6,7 +6,7 @@ const AboutSection = (): JSX.Element => {
     <section id="about" className="section-padding bg-background">
       <div className="container mx-auto container-narrow">
         <h2 className="text-3xl md:text-4xl font-heading font-medium text-foreground text-center mb-12">
-          About Me
+          Обо мне
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8 items-start">
@@ -15,7 +15,7 @@ const AboutSection = (): JSX.Element => {
             <div className="w-48 h-56 md:w-56 md:h-64 rounded-lg bg-secondary border border-border overflow-hidden shadow-sm">
             <img
               src={BotaPic}
-              alt="Bota Beisekova – Psychologist"
+              alt="Бота Бейсекова – Психолог"
               className="w-full h-full object-cover"
             />
             </div>
@@ -24,28 +24,28 @@ const AboutSection = (): JSX.Element => {
           {/* About text */}
           <div className="md:col-span-2 space-y-5 text-foreground/85 leading-relaxed">
             <p>
-              My name is <strong className="text-foreground">Botagoz Beisekova</strong>, and I am originally from Kazakhstan. 
-              I’m currently pursuing my PhD in Psychology at ELTE in Budapest, where my work is supervised by Dr. Adrienn  Ujhelyi.
+              Меня зовут <strong className="text-foreground">Ботагоз Бейсекова</strong>, и я родом из Казахстана. 
+              В настоящее время я прохожу докторантуру по психологии в ELTE в Будапеште, где моя работа курируется доктором Адриенн Уйхели.
             </p>
             
             <p>
-              I believe that many people primarily need a space where they can be heard without judgment 
-              or bias. In my work, I draw on evidence-based principles from <strong className="text-foreground">Cognitive-Behavioural 
-              Therapy (CBT)</strong> and <strong className="text-foreground">Humanistic psychology</strong>. 
+              Я считаю, что многие люди в первую очередь нуждаются в пространстве, где их могут услышать без осуждения 
+              или предвзятости. В своей работе я опираюсь на доказательные принципы <strong className="text-foreground">когнитивно-поведенческой 
+              терапии (КПТ)</strong> и <strong className="text-foreground">гуманистической психологии</strong>. 
               
               
             </p>
             
             <p>
-              My academic and professional interests focus on psychological well-being in the 
-              context of contemporary challenges, including socio-political factors, economic pressures, 
-              and modern technologies such as social media and AI.
+              Мои академические и профессиональные интересы сосредоточены на психологическом благополучии в 
+              контексте современных вызовов, включая социально-политические факторы, экономическое давление, 
+              и современные технологии, такие как социальные сети и ИИ.
             </p>
             
             
             <div className="pt-4 border-t border-border">
               <p className="font-medium text-foreground">
-                I offer sessions in:
+                Я предлагаю сессии на:
               </p>
               <div className="flex flex-wrap gap-2 mt-3">
                 {["English", "Kazakh", "Russian", "Turkish"].map((lang) => (
