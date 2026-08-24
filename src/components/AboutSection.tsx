@@ -25,7 +25,8 @@ const AboutSection = (): JSX.Element => {
           <div className="md:col-span-2 space-y-5 text-foreground/85 leading-relaxed">
             <p>
               My name is <strong className="text-foreground">Botagoz Beisekova</strong>, and I am originally from Kazakhstan. 
-              I’m currently pursuing my PhD in Psychology at ELTE in Budapest, where my work is supervised by Dr. Adrienn  Ujhelyi.
+              I’m currently pursuing my PhD in Psychology at ELTE in Budapest, where my work is supervised by Professor Zsolt Demetrovics, Dr. Agnes Zsila and 
+              <p>(Dr. Adrienn  Ujhelyi).</p>
             </p>
             
             <p>

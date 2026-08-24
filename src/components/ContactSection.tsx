@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 const ContactSection = () => {
   const whatsappUrl = "https://wa.me/393517198161";
-  const primaryEmail = "botagoz@student.elte.hu";
+  const primaryEmail = " beisekova.botagoz@ppk.elte.hu";
   const secondaryEmail = "botagoz.beisekova@studenti.unipd.it";
 
   return (

@@ -91,9 +91,9 @@ const FeesSection = () => {
                   Cancellation Policy
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Appointments may be cancelled or rescheduled with at least 24 hours' notice. 
-                  Cancellations made with less than 24 hours' notice or missed appointments may 
-                  be charged in full.
+                Cancellations and rescheduling are flexible, including last-minute changes. If a session is
+                missed or canceled, the payment will be credited toward a future session at a mutually
+                convenient time.
                 </p>
               </div>
             </div>
